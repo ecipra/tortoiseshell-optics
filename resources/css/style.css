@@ -1,6 +1,9 @@
 html {
   font-size: 18px;
   font-family: Helvetica;
+}
+
+body {
   line-height: 1.4;
 }
 
@@ -9,6 +12,17 @@ h1 {
   font-size: 2rem;
   line-height: 1.2;
   text-transform: uppercase;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 1rem;
+  color: white;
+  text-transform: uppercase;
+  background-color: cadetblue;
+  width: 10rem;
+  padding: 0.5rem 1.25rem;
+  margin-bottom: 1rem;
 }
 
 .container {
@@ -67,9 +81,7 @@ nav span:last-child {
 
 .service-grid {
   display: flex;
-  justify-content: space-around;
-  margin: 3rem 0;
-  max-height: 8rem;
+  justify-content: center;
 }
 
 .service {
@@ -78,6 +90,8 @@ nav span:last-child {
   justify-content: space-between;
   align-items: center;
   text-align: center;
+  width: 5rem;
+  margin: 3rem;
 }
 
 .service-image {
@@ -93,4 +107,27 @@ nav span:last-child {
 
 .service-image img.paper-icon {
   max-width: 3.5rem;
+}
+
+.company-info {
+  display: flex;
+  justify-content: center;
+}
+
+.detail {
+  width: 35%;
+  margin: 0 2.5%;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  background-color: azure;
+  margin-top: 5rem;
+  padding: 4rem;
+}
+
+footer img {
+  height: 1.5rem;
+  margin-right: 1rem;
 }
